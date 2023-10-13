@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Petric Ngema Developer Website</title>
+    <style>
+        @keyframes bounce {
+          0%, 20%, 50%, 80%, 100% {
+            transform: translateY(0);
+          }
+          40% {
+            transform: translateY(-5px);
+          }
+          60% {
+            transform: translateY(-5px);
+          }
+        }
+
+        .bounce {
+        animation: bounce 6s ease infinite;
+}
+        </style>
+</head>
+<body>
+
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="about.html"><span>About</span></a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html"><span>Projects</span></a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+
+  
+
+
+
+    <div class="heading1">
+        <h1 id="typing-heading">I'm Petric <span>Ngema</span> <br></h1>
+    </div>
+    
+   
+
+<div class="title">
+    <h1>Jnr Web Developer | Jnr SEO Specialist | <br> <span>Online Marketing Specialist | Cloud Consultant</span></h1>
+</div>
+<div class="center-input">
+    <a href="https://profile.indeed.com/p/petricn-nmsfxc7" class="download-button">Download My Resume</a>
+</div>
+
+<div class="center-input">
+    <a href="https://www.linkedin.com/in/petric-ngema-61759828a" class="download-button">Let's connect on Linkedin</a>
+</div>
+
+
+
+
+<div class="paragraph">
+    <p>Welcome to my corner of the internet! I'm on a continuous journey to explore the exciting world of web development and technology. <br> With a passion for learning and a knack for careful attention to detail, I've been honing my skills to craft exceptional online experiences.
+
+    </p>
+</div>
+
+ 
+
+
+
+
+<div class="icons">
+    <a href="">
+        <img src="social(1).png" alt="">
+        <img src="social.png" alt="">
+        <img src="linkedin.png" alt="">
+        <img src="download.png" alt="">
+    </a>
+</div>
+
+
+
+
+<script>
+    const text = "Loveley! You have found me at last";
+    const typingHeading = document.getElementById("typing-heading");
+    
+    function typeText(text, element, i = 0) {
+      if (i < text.length) {
+        element.innerHTML += text.charAt(i);
+        setTimeout(() => typeText(text, element, i + 1), 100);
+      }
+    }
+    
+    window.onload = function () {
+      typeText(text, typingHeading);
+    }
+    </script>
+
+
+   
+    
+    <script src="script.js"></script>
+    © Developed & designed by  Petric Sibongiseni Ngema 2023 | All Rights Reserved
+
+</body>
+</html>
+
+
+
